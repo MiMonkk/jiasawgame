@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac871c16-0a90-4c5c-b8e9-b676f3d40f29" name="更改" comment="初步了图片">
-      <change afterPath="$PROJECT_DIR$/src/com/qifan/test/MyJFrame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qifan/test/MyJFrame3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qifan/test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qifan/test/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qifan/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qifan/ui/GameJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chinf/IdeaProjects/jigsawgame",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.App.executor": "Run",
-    "应用程序.Test3.executor": "Run",
-    "应用程序.Test4.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chinf/IdeaProjects/jigsawgame&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.App.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test4.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chinf\IdeaProjects\jigsawgame" />
       <recent name="C:\Users\chinf\IdeaProjects\jigsawgame\puzzlegame" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test4">
+  <component name="RunManager" selected="应用程序.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="jigsawgame" />
@@ -111,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.App" />
         <item itemvalue="应用程序.Test4" />
         <item itemvalue="应用程序.Test3" />
-        <item itemvalue="应用程序.App" />
       </list>
     </recent_temporary>
   </component>
