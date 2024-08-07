@@ -32,45 +32,68 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
     JMenuItem accoutItem = new JMenuItem("公众号");
 
-    public GameJFrame(){
+    JMenuItem girl = new JMenuItem("美女");
+    JMenuItem animal = new JMenuItem("动物");
+    JMenuItem sport = new JMenuItem("运动");
 
+
+    public GameJFrame(){
         // 初始化界面
         initJFrame();
-
         // 初始化菜单
         initJMenuBar();
-
         // 初始化数据（打乱）
         initData();
         // 初始化图片
         initImage();
 
-
         this.setVisible(true);
 
     }
 
+    private void initJFrame() {
+        this.setSize(603, 680);
+        this.setTitle("拼图单机 v1");
+        this.setAlwaysOnTop(true);
+        this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLayout(null);
 
+        this.addKeyListener(this);
+    }
 
-    private void initData() {
-        int[] tempArr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
-        Random r = new Random();
-        for (int i = 0; i < tempArr.length; i++) {
-            int index = r.nextInt(tempArr.length);
-            int temp = tempArr[i];
-            tempArr[i] = tempArr[index];
-            tempArr[index] = temp;
-        }
+    private void initJMenuBar() {
+        JMenuBar menuBar = new JMenuBar();
 
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                if (tempArr[i * 4 + j] == 0){
-                    x = j;
-                    y = i;
-                }
-                    data[i][j] = tempArr[i * 4 + j];
-            }
-        }
+        JMenu functionJMenu = new JMenu("功能");
+        JMenu aboutJMenu = new JMenu("关于我们");
+
+        JMenu changePicture = new JMenu("更换图片");
+
+        functionJMenu.add(changePicture);
+        functionJMenu.add(replayItem);
+        functionJMenu.add(reloginItem);
+        functionJMenu.add(exitItem);
+
+        aboutJMenu.add(accoutItem);
+
+        changePicture.add(girl);
+        changePicture.add(animal);
+        changePicture.add(sport);
+
+        // 给条目绑定事件
+        replayItem.addActionListener(this);
+        reloginItem.addActionListener(this);
+        exitItem.addActionListener(this);
+        accoutItem.addActionListener(this);
+        girl.addActionListener(this);
+        animal.addActionListener(this);
+        sport.addActionListener(this);
+
+        menuBar.add(functionJMenu);
+        menuBar.add(aboutJMenu);
+
+        this.setJMenuBar(menuBar);
     }
 
     private void initImage() {
@@ -114,42 +137,29 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
     }
 
-    private void initJMenuBar() {
-        JMenuBar menuBar = new JMenuBar();
+    private void initData() {
+        int[] tempArr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+        Random r = new Random();
+        for (int i = 0; i < tempArr.length; i++) {
+            int index = r.nextInt(tempArr.length);
+            int temp = tempArr[i];
+            tempArr[i] = tempArr[index];
+            tempArr[index] = temp;
+        }
 
-        JMenu functionJMenu = new JMenu("功能");
-        JMenu aboutJMenu = new JMenu("关于我们");
-
-
-
-        functionJMenu.add(replayItem);
-        functionJMenu.add(reloginItem);
-        functionJMenu.add(exitItem);
-
-        aboutJMenu.add(accoutItem);
-
-        // 给条目绑定事件
-        replayItem.addActionListener(this);
-        reloginItem.addActionListener(this);
-        exitItem.addActionListener(this);
-        accoutItem.addActionListener(this);
-
-        menuBar.add(functionJMenu);
-        menuBar.add(aboutJMenu);
-
-        this.setJMenuBar(menuBar);
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                if (tempArr[i * 4 + j] == 0){
+                    x = j;
+                    y = i;
+                }
+                data[i][j] = tempArr[i * 4 + j];
+            }
+        }
     }
 
-    private void initJFrame() {
-        this.setSize(603, 680);
-        this.setTitle("拼图单机 v1");
-        this.setAlwaysOnTop(true);
-        this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(null);
 
-        this.addKeyListener(this);
-    }
+
 
     @Override
     public void keyTyped(KeyEvent e) {
@@ -250,7 +260,6 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         return true;
 }
 
-
     @Override
     public void actionPerformed(ActionEvent e) {
 
@@ -282,6 +291,27 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             jd.setLocationRelativeTo(null);     // 居中
             jd.setModal(true);                  // 不关闭就无法继续
             jd.setVisible(true);
+        }else if(obj == girl){
+            System.out.println("更换美女照片");
+            Random r = new Random();
+            int idx = r.nextInt(13) + 1;
+            path = "image\\" + "girl\\girl" + idx + "\\";
+            initData();                 // 初始化数据（打乱）
+            initImage();                // 初始化图片
+        }else if(obj == animal){
+            System.out.println("更换动物照片");
+            Random r = new Random();
+            int idx = r.nextInt(8) + 1;
+            path = "image\\" + "animal\\animal" + idx + "\\";
+            initData();                 // 初始化数据（打乱）
+            initImage();                // 初始化图片
+        }else if(obj == sport){
+            System.out.println("更换运动照片");
+            Random r = new Random();
+            int idx = r.nextInt(10) + 1;
+            path = "image\\" + "sport\\sport" + idx + "\\";
+            initData();                 // 初始化数据（打乱）
+            initImage();                // 初始化图片
         }
     }
 }
