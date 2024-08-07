@@ -23,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MiMonkk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:MiMonkk/jiasawgame.git",
+    "accountId": "49daab38-00ee-4992-ac9b-4a74e2bceba0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -134,6 +146,7 @@
       <workItem from="1722340520281" duration="6241000" />
       <workItem from="1722402950404" duration="7484000" />
       <workItem from="1722502022460" duration="3771000" />
+      <workItem from="1723045520210" duration="2574000" />
     </task>
     <task id="LOCAL-00001" summary="初步了图片">
       <option name="closed" value="true" />
@@ -151,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722517296459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初步了图片">
+      <option name="closed" value="true" />
+      <created>1722612988003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722612988003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +181,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初步了图片" />
     <option name="LAST_COMMIT_MESSAGE" value="初步了图片" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/qifan/ui/GameJFrame.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

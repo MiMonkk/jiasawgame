@@ -263,11 +263,25 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
         }else if(obj == reloginItem){
             System.out.println("重新登陆");
+            // 关闭当前
+            this.setVisible(false);
+            // 打开新登陆界面
+            new LoginJFrame();
         }else if(obj == exitItem){
             System.out.println("关闭游戏");
             System.exit(0);
         }else if(obj == accoutItem){
             System.out.println("公众号");
+            // 创建弹框对象
+            JDialog jd = new JDialog();
+            JLabel label = new JLabel(new ImageIcon("image\\about.png"));
+            label.setBounds(0,0,258,258);
+            jd.getContentPane().add(label);     // 添加图片到弹框
+            jd.setSize(344, 344);
+            jd.setAlwaysOnTop(true);
+            jd.setLocationRelativeTo(null);     // 居中
+            jd.setModal(true);                  // 不关闭就无法继续
+            jd.setVisible(true);
         }
     }
 }
