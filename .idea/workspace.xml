@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac871c16-0a90-4c5c-b8e9-b676f3d40f29" name="更改" comment="完成视频">
+    <list default="true" id="ac871c16-0a90-4c5c-b8e9-b676f3d40f29" name="更改" comment="初步了图片">
+      <change afterPath="$PROJECT_DIR$/src/com/qifan/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qifan/util/CodeUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qifan/ui/GameJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qifan/ui/GameJFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/qifan/ui/LoginJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qifan/ui/LoginJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MiMonkk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MiMonkk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:MiMonkk/jiasawgame.git",
-    "accountId": "49daab38-00ee-4992-ac9b-4a74e2bceba0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:MiMonkk/jiasawgame.git&quot;,
+    &quot;accountId&quot;: &quot;49daab38-00ee-4992-ac9b-4a74e2bceba0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -46,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chinf/IdeaProjects/jigsawgame",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.语言默认设置",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.App.executor": "Run",
-    "应用程序.Test3.executor": "Run",
-    "应用程序.Test4.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/data/研究生/学习资料/JAVAheima/2024最新版Java学习路线图/第1阶段—Java基础/3、Java入门到起飞（含斯坦福大学练习题+力扣算法题+大厂java面试题）/入门到起飞（上）/Java基础-资料/day17-面向对象综合练习（下）/作业/答案&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.语言默认设置&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.App.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test4.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chinf\IdeaProjects\jigsawgame" />
@@ -150,6 +150,7 @@
       <workItem from="1722402950404" duration="7484000" />
       <workItem from="1722502022460" duration="3771000" />
       <workItem from="1723045520210" duration="8092000" />
+      <workItem from="1723189166680" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="初步了图片">
       <option name="closed" value="true" />
